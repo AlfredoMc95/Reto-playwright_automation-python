@@ -72,7 +72,7 @@ trabajar
 ## 🧪 Example Test Execution
 
 ```bash
-pytest test/test_example.py
+pytest test/test_correct_login.py
 ```
 ---
 
