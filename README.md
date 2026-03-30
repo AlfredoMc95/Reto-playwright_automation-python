@@ -18,8 +18,8 @@ It demonstrates end-to-end testing practices, scalable structure, and reporting.
 Clone the repository:
 
 ```bash
-git clone 
-cd 
+git clone https://github.com/AlfredoMc95/Reto-playwright_automation-python.git
+cd Reto-playwright_automation-python
 ```
 
 Install dependencies:
