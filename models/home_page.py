@@ -6,6 +6,7 @@ class HomePage:
         self.login_buttton = page.get_by_text(" Signup / Login")
         self.user_text = page.get_by_text(" Delete Account")
         self.delete_buttton = page.get_by_text(" Delete Account")
+        self.logout_buttton = page.get_by_role("link", name=" Logout")
 
 
     def navegate(self):
@@ -19,3 +20,6 @@ class HomePage:
 
     def click_delete_button(self):
         self.delete_buttton.click()
+
+    def click_logout_button(self):
+        self.logout_buttton.click()

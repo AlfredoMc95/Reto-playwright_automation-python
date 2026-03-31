@@ -11,7 +11,7 @@ class Login:
         self.login_button = page.get_by_role("button", name="Login")
     
 
-    def enter_username(self, username: str , useremail: str):
+    def create_user(self, username: str , useremail: str):
         self.user_name_input.fill(username)
         self.user_email_input.fill(useremail)
 
@@ -24,3 +24,6 @@ class Login:
 
     def click_login(self):
         self.login_button.click()
+
+    def verifi_incorrect_user_text(self):
+        expect(self.page.get_by_text("Your email or password is incorrect!")).to_be_visible()
