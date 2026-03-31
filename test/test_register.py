@@ -14,7 +14,7 @@ def test_register(page: Page):
 
     homePage.navegate()
     homePage.click_signup_button()
-    login.enter_username("asd pedro", "asdpedro@gamil.com")
+    login.create_user("asd pedro", "asdpedro@gamil.com")
     login.click_register()
     signup.select_gender("male")
     signup.enter_password("fredoGodoFredo")
